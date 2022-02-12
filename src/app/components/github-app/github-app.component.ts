@@ -9,8 +9,15 @@ export class GithubAppComponent implements OnInit {
   
   /**
    * githubUserQuery */
-  public githubUserQuery:string | undefined 
+  /**
+   * githubUserQuery */
+
+  public githubUserQuery: string | undefined; 
         constructor(){ }
+
+  public SearchUser(){
+
+  }      
 
   ngOnInit(): void {
   }
