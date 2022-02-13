@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3
 
-[ 🔗 DEMO:](https://tee-mureithi.github.io/Angular-search/) 
+[ 🔗 DEMO:https://tee-mureithi.github.io/Angular-search](https://tee-mureithi.github.io/Angular-search/) 
 # DESCRIPTION
 
 An angular app to search for profiles and repos on github. It consumes the github api. A user enters the site, searches for the desired username in the search box and results are displayed. The user can view the repositories if any by tabbing on the repositories section.
