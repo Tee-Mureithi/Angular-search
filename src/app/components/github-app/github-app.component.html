@@ -7,10 +7,18 @@
             </form>
         </div>
     </div>
+    <br><br><br>
     <div class="row">
         <div class="col">
-          <app-github-profile>
+          <app-github-profile [githubProfile]="githubProfile" >
           </app-github-profile>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <app-github-repos>
+
+            </app-github-repos>
         </div>
     </div>
 </div>

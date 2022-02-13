@@ -1,1 +1,15 @@
-<p>github-profile-card works!</p>
+<div class="card">
+  <img [src]="githubProfile.avatar_url" class="img-fluid" />
+  <div class="card-body">
+    <h3 class="card-title">{{ githubProfile.name }}</h3>
+    <p class="card-text">{{ githubProfile.bio }}</p>
+    <a
+      [href]="githubProfile.html_url"
+      class="btn btn-info"
+      target="_blank"
+      style="background-color: #0000ff !important; color: whitesmoke !important"
+    >
+      <i class="fa fa-github"></i> Profile
+    </a>
+  </div>
+</div>
