@@ -12,6 +12,7 @@ import { GithubService } from './services/github.service';
 import { GithubReposComponent } from './components/github-repos/github-repos.component';
 import {NgxSpinnerModule} from 'ngx-spinner';
 import { LandingComponent } from './components/landing/landing.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { LandingComponent } from './components/landing/landing.component';
     GithubProfileCardComponent,
     GithubProfileDataComponent,
      GithubReposComponent,
-     LandingComponent
+     LandingComponent,
+     TestComponent
   ],
   imports: [
     
