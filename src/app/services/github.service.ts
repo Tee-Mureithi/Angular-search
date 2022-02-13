@@ -9,7 +9,7 @@ import { catchError, throwError } from 'rxjs';
 })
 export class GithubService{
     constructor(private HttpClient:HttpClient) {}
-    //For the Github Profile 
+    //For the Github Profile
     public getProfile(SearchQuery: any){
         let dataURL = `https://api.github.com/users/${SearchQuery}?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}`;
         return this.HttpClient.get<any>(dataURL).pipe(
@@ -18,7 +18,7 @@ export class GithubService{
     }
 
 
-    //For the Github Repositories
+    //For the GitHub Repositories
     public getRepos(SearchQuery: any[]){
         let dataURL = `https://api.github.com/users/${SearchQuery}/repos?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}`;
         return this.HttpClient.get<any[]>(dataURL).pipe(
@@ -40,7 +40,7 @@ export class GithubService{
         return throwError(errorMessage);
      }
 
-   
+
 
 
 
