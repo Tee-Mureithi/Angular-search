@@ -1,6 +1,6 @@
-# Angular GitSearch App
+# Angular Git Google App 🚀
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3
 
 # DESCRIPTION
 
@@ -18,7 +18,7 @@ An angular app to search for profiles and repos on github. It consumes the githu
 
 # Prerequisites
 
-To work with GitSearch you need to have some few preresuisites.
+To work with Git Google you need to have some few prerequisites.
 
 This include the following mentioned however if you dont have the set below 
 
@@ -26,13 +26,20 @@ This include the following mentioned however if you dont have the set below
 
 - Angular 8
 
-- Watchman
-
 - Typescript
 
 - Angular Cli
 
-If you dont have this requirements you could use the link above to help with the installation guide.
+# Versions
+
+- @angular-devkit/architect       0.1302.3
+- @angular-devkit/build-angular   13.2.3
+- @angular-devkit/core            13.2.3
+- @angular-devkit/schematics      13.2.3
+- @angular/cli                    13.2.3
+- @schematics/angular             13.2.3
+- rxjs                            7.5.4
+- typescript                      4.5.5
 
 
 ## SETUP
@@ -44,7 +51,7 @@ If you dont have this requirements you could use the link above to help with the
 
 2. You will also need a Webpage URL to load in URL's:
 
-3. To get to use **GitSearch** fist you need to get to the GitSearch-Angular repository. 
+3. To get to use **Git Google** fist you need to get to the GitSearch-Angular repository. 
 
     [Link](https://github.com/Tee-Mureithi/)
 
@@ -80,6 +87,7 @@ If you dont have this requirements you could use the link above to help with the
 2. TypeScript
 
 3. Boostrap
+
 
 ## Development server
 ---
