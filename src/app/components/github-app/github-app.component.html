@@ -1,9 +1,9 @@
-<div class="container">
+<div  class="container">
     <div class="row height d-flex justify-content-center align-items-center">
         <div class="col-md-8">
-            <form action="" class="form-inline" (submit)="SearchUser()">
+            <form action="" class="form-inline" (submit)="SearchUser()" >
                 <div  class="search" name="user" > <i class="fa fa-search"></i> <input type="text" name="user" [(ngModel)]="githubUserQuery" class="form-control" placeholder="Search for user">
-                    <button class="btn btn-primary" type="submit" value="Search">Search  <i class="fa fa-github"></i> </button> </div>                    
+                    <button class="btn btn-primary" type="submit" value="Search" >Search  <i class="fa fa-github"></i> </button> </div>                    
             </form>
         </div>
     </div>
@@ -21,4 +21,16 @@
             </app-github-repos>
         </div>
     </div>
+    <div class="row landing" id="landing">
+        <div class="col">
+            <app-landing>
+                
+            </app-landing>
+        </div>
+    </div>
 </div>
+
+
+
+
+

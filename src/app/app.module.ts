@@ -10,6 +10,8 @@ import { GithubProfileCardComponent } from './components/github-profile-card/git
 import { GithubProfileDataComponent } from './components/github-profile-data/github-profile-data.component';
 import { GithubService } from './services/github.service';
 import { GithubReposComponent } from './components/github-repos/github-repos.component';
+import {NgxSpinnerModule} from 'ngx-spinner';
+import { LandingComponent } from './components/landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { GithubReposComponent } from './components/github-repos/github-repos.com
     GithubProfileComponent,
     GithubProfileCardComponent,
     GithubProfileDataComponent,
-     GithubReposComponent
+     GithubReposComponent,
+     LandingComponent
   ],
   imports: [
     
@@ -26,6 +29,8 @@ import { GithubReposComponent } from './components/github-repos/github-repos.com
     FormsModule,
     BrowserModule,
     AppRoutingModule,
+    NgxSpinnerModule
+
   ],
   providers: [GithubService],
   bootstrap: [AppComponent]

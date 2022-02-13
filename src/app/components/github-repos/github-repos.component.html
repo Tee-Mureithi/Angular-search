@@ -1,14 +1,14 @@
 
-<div class="card mt-3">
+<div *ngIf="githubRepos" class="card mt-3">
     <div class="card-header bg-light text-white">
        <h4 class="text-black"> <i class="fa fa-code-branch"></i>  GitHub Repositories</h4>
     </div>
     <div class="card-body">
         <ul class="list-group">
             <li *ngFor="let repo of githubRepos" class="list-group-item d-flex justify-content-between">
-                <a href="" class="text-primary font-weight-bold" target="_blank">{{repo.name}}</a>
+                <a [href]="repo.html_url" class="text-primary font-weight-bold" target="_blank">{{repo.name}}</a>
                 <span class=" badge badge-success">{{repo.stargazers_count}} stars</span>
-                <span class=" badge badge-warning">{{repo.watchers_count}} stars</span>
+                <span class=" badge badge-warning">{{repo.watchers_count}} watch</span>
             </li>
         </ul>
     </div>

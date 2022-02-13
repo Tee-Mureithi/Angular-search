@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { GithubService } from 'src/app/services/github.service';
 
+
+
 @Component({
   selector: 'app-github-app',
   templateUrl: './github-app.component.html',
@@ -18,11 +20,12 @@ export class GithubAppComponent implements OnInit {
   public githubProfile: any;
   public githubRepos!: any[];
   public errorMessage!: string;
+  ngxSpinner: any;
 
         constructor (private githubService:GithubService){}
 
   public SearchUser(){
-
+   
     //TO GET THE USERS GITHUB PROFILE
     this.githubService.getProfile(this.githubUserQuery).subscribe((data)=>{
       this.githubProfile = data;

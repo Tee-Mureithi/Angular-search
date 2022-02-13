@@ -7,6 +7,9 @@ import { catchError, throwError } from 'rxjs';
 @Injectable({
     providedIn:'root'
 })
+
+
+
 export class GithubService{
     constructor(private HttpClient:HttpClient) {}
     //For the Github Profile
@@ -39,9 +42,5 @@ export class GithubService{
         }
         return throwError(errorMessage);
      }
-
-
-
-
 
 }
